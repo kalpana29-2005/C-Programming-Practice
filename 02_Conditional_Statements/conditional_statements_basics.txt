@@ -1,0 +1,135 @@
+C CONDITIONAL STATEMENTS - BASICS
+
+Conditional statements are used to make decisions in a C program.
+
+They help the program choose what to do depending on whether a condition is TRUE or FALSE.
+
+
+1. if STATEMENT
+
+The if statement is used when a block of code should execute only when a condition is true.
+
+Syntax:
+
+if (condition)
+
+
+2. if-else STATEMENT
+
+The if-else statement is used when there are two possible choices.
+
+If the condition is true, one block is executed.
+
+If the condition is false, another block is executed.
+
+
+3. else-if LADDER
+
+The else-if ladder is used when there are multiple conditions to check.
+
+The program checks the conditions one by one.
+
+When one condition becomes true, the corresponding block is executed.
+
+
+4. NESTED if
+
+A nested if means using one if statement inside another if statement.
+
+It is used when one condition depends on another condition.
+
+
+5. switch STATEMENT
+
+The switch statement is used when a variable can have multiple fixed choices.
+
+It is commonly used instead of a long else-if ladder when checking one value.
+
+*** Important keywords used in switch:
+
+case
+break
+default
+
+
+*** RELATIONAL OPERATORS ***
+
+Relational operators are used to compare values.
+
+>   Greater than
+
+<   Less than
+
+>=  Greater than or equal to
+
+<=  Less than or equal to
+
+==  Equal to
+
+!=  Not equal to
+
+
+*** LOGICAL OPERATORS  ***
+
+Logical operators are used when more than one condition is involved.
+
+&&  AND
+    Returns true when both conditions are true.
+
+||  OR
+    Returns true when at least one condition is true.
+
+!   NOT
+    Reverses the result of a condition.
+
+
+** IMPORTANT DIFFERENCE  **
+
+=   Assignment operator
+
+==  Comparison operator
+
+Assignment operator is used to store a value.
+
+Comparison operator is used to compare two values.
+
+
+```QUICK SUMMARY```
+
+* if
+Used to check one condition.
+
+* if-else
+Used when there are two choices.
+
+* else-if ladder
+Used when there are multiple conditions.
+
+* nested if
+Used when one condition is inside another condition.
+
+* switch
+Used for multiple fixed choices.
+
+
+```IMPORTANT POINTS````
+
+1. Conditions in C return either true or false.
+
+2. Zero is considered false.
+
+3. Any non-zero value is considered true.
+
+4. Curly brackets { } are used to group statements.
+
+5. break is commonly used in switch cases.
+
+6. default executes when no case matches.
+
+7. && means both conditions must be true.
+
+8. || means at least one condition must be true.
+
+9. == should be used for comparison, not =.
+
+10. Conditional statements are very important for decision making in C.
