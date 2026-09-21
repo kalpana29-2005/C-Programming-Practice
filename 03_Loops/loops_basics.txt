@@ -1,0 +1,163 @@
+C LOOPS - BASICS
+
+• Loops are used to repeat a block of code multiple times.
+
+• C has three main types of loops:
+  - for loop
+  - while loop
+  - do-while loop
+
+
+1. FOR LOOP
+
+• Used when the number of repetitions is known.
+
+• Syntax:
+  for (initialization; condition; update)
+
+• Main parts:
+  - Initialization → starting value
+  - Condition → decides whether the loop continues
+  - Update → changes the loop variable
+
+• Example idea:
+  i = 1
+  i <= 5
+  i++
+
+
+2. WHILE LOOP
+
+• Used when the number of repetitions is not fixed.
+
+• The condition is checked before the loop runs.
+
+• If the condition is false initially, the loop may not execute even once.
+
+
+3. DO-WHILE LOOP
+
+• Similar to the while loop.
+
+• The condition is checked after executing the loop body.
+
+• Executes at least once.
+
+
+4. DIFFERENCE BETWEEN LOOPS
+
+• for loop
+  - Best when the number of repetitions is known.
+
+• while loop
+  - Best when repetition depends on a condition.
+
+• do-while loop
+  - Best when the loop must run at least once.
+
+
+5. LOOP VARIABLE
+
+• A loop variable controls the repetitions.
+
+• Common loop variables:
+  - i
+  - j
+  - count
+
+
+6. INCREMENT AND DECREMENT
+
+• i++ → increase i by 1
+
+• i-- → decrease i by 1
+
+• i += 2 → increase i by 2
+
+
+7. BREAK
+
+• Stops the loop immediately.
+
+• Control moves outside the loop.
+
+
+8. CONTINUE
+
+• Skips the current iteration.
+
+• The loop continues with the next iteration.
+
+
+9. NESTED LOOP
+
+• A loop inside another loop is called a nested loop.
+
+• Mainly used for:
+  - Patterns
+  - Matrices
+  - Tables
+
+
+10. INFINITE LOOP
+
+• A loop that never stops is called an infinite loop.
+
+• It may happen when:
+  - The condition is always true
+  - The loop variable is not updated properly
+
+
+11. IMPORTANT OPERATORS
+
+• <   → Less than
+
+• >   → Greater than
+
+• <=  → Less than or equal to
+
+• >=  → Greater than or equal to
+
+• ==  → Equal to
+
+• !=  → Not equal to
+
+
+12. QUICK SUMMARY
+
+• for loop
+  → Used when repetitions are known.
+
+• while loop
+  → Used when repetition depends on a condition.
+
+• do-while loop
+  → Executes at least once.
+
+• break
+  → Stops the loop.
+
+• continue
+  → Skips the current iteration.
+
+• nested loop
+  → Loop inside another loop.
+
+
+13. IMPORTANT POINTS
+
+• Loops reduce repeated code.
+
+• Every loop should have a stopping condition.
+
+• Initialize the loop variable correctly.
+
+• Update the loop variable properly.
+
+• Wrong conditions may create infinite loops.
+
+• for loops are commonly used with arrays.
+
+• while loops are useful for number-based problems.
+
+• nested loops are commonly used for pattern printing.
