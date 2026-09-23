@@ -1,0 +1,250 @@
+C FUNCTIONS - BASICS
+
+• A function is a block of code that performs a specific task.
+
+• Functions help divide a large program into smaller, manageable parts.
+
+• Functions improve:
+  - Code readability
+  - Code reuse
+  - Debugging
+  - Program organization
+
+
+1. MAIN PARTS OF A FUNCTION
+
+• Function Declaration / Prototype
+  - Tells the compiler about the function.
+  - Includes:
+    - Return type
+    - Function name
+    - Parameters
+
+• Function Call
+  - Used to execute the function.
+
+• Function Definition
+  - Contains the actual code of the function.
+
+
+2. GENERAL FUNCTION FORMAT
+
+• Return type
+  - Specifies what type of value the function returns.
+
+• Function name
+  - Name used to identify the function.
+
+• Parameters
+  - Values received by the function.
+
+• Function body
+  - Contains the statements to be executed.
+
+• return statement
+  - Sends a value back to the calling function.
+
+
+3. TYPES OF FUNCTIONS
+
+• Function without arguments and without return value
+
+• Function with arguments and without return value
+
+• Function without arguments and with return value
+
+• Function with arguments and with return value
+
+
+4. FUNCTION WITHOUT ARGUMENTS AND WITHOUT RETURN VALUE
+
+• Does not receive any value.
+
+• Does not return any value.
+
+• Usually uses void as the return type.
+
+
+5. FUNCTION WITH ARGUMENTS AND WITHOUT RETURN VALUE
+
+• Receives values from the calling function.
+
+• Does not return any value.
+
+• Useful when input is passed to the function for processing.
+
+
+6. FUNCTION WITHOUT ARGUMENTS AND WITH RETURN VALUE
+
+• Does not receive values through parameters.
+
+• Returns a value to the calling function.
+
+
+7. FUNCTION WITH ARGUMENTS AND WITH RETURN VALUE
+
+• Receives values through parameters.
+
+• Performs the required operation.
+
+• Returns the result.
+
+• This is one of the most commonly used function types.
+
+
+8. FUNCTION PARAMETERS
+
+• Parameters are variables used to receive values in a function.
+
+• They are written inside the parentheses of the function.
+
+• Two important terms:
+
+  - Actual Parameters / Arguments
+    → Values passed during the function call.
+
+  - Formal Parameters
+    → Variables that receive those values inside the function.
+
+
+9. RETURN STATEMENT
+
+• return is used to send a value back from a function.
+
+• It also ends the execution of that function.
+
+• The returned value should match the function's return type.
+
+
+10. VOID FUNCTION
+
+• void means the function does not return any value.
+
+• It is used when the function only performs a task.
+
+
+11. LOCAL VARIABLES
+
+• Variables declared inside a function are called local variables.
+
+• They can only be used inside that function.
+
+• They are created when the function starts.
+
+• They are destroyed when the function ends.
+
+
+12. GLOBAL VARIABLES
+
+• Variables declared outside all functions are called global variables.
+
+• They can be accessed by multiple functions.
+
+• Global variables should be used carefully.
+
+
+13. FUNCTION CALL
+
+• A function performs its task only when it is called.
+
+• Control moves from the calling function to the called function.
+
+• After execution, control returns back to the calling function.
+
+
+14. FUNCTION PROTOTYPE
+
+• A function prototype tells the compiler about a function before it is used.
+
+• It contains:
+  - Return type
+  - Function name
+  - Parameter types
+
+
+15. CALL BY VALUE
+
+• In C, arguments are normally passed by value.
+
+• A copy of the original value is passed to the function.
+
+• Changes made inside the function do not affect the original variable.
+
+
+16. CALL BY REFERENCE
+
+• C does not directly support call by reference.
+
+• Similar behavior is achieved using pointers.
+
+• The address of a variable is passed to the function.
+
+• Changes made through the pointer can affect the original variable.
+
+
+17. ADVANTAGES OF FUNCTIONS
+
+• Reduces repeated code.
+
+• Makes programs easier to understand.
+
+• Makes debugging easier.
+
+• Makes testing easier.
+
+• Improves code reuse.
+
+• Makes large programs easier to manage.
+
+
+18. IMPORTANT POINTS
+
+• Every C program starts execution from main().
+
+• A function can be called multiple times.
+
+• A function should ideally perform one specific task.
+
+• Function names should be meaningful.
+
+• A function may or may not take arguments.
+
+• A function may or may not return a value.
+
+• return sends control back to the calling function.
+
+• void means no return value.
+
+• Local variables belong only to their function.
+
+• Functions help create modular programs.
+
+
+19. QUICK SUMMARY
+
+• Declaration
+  → Tells the compiler about the function.
+
+• Call
+  → Executes the function.
+
+• Definition
+  → Contains the function code.
+
+• Arguments
+  → Values passed to a function.
+
+• Parameters
+  → Variables that receive values.
+
+• return
+  → Sends a value back.
+
+• void
+  → No value is returned.
+
+• Local variable
+  → Used only inside one function.
+
+• Global variable
+  → Can be accessed by multiple functions.
